@@ -23,8 +23,7 @@ class Solution:
         # Update result if root is not None
         if root is not None:
 
-            # If left of root is None, then add key of
-            # left child
+            # If left of root is None, then add the value of left child
             if isLeaf(root.left):
                 total += root.left.val
             else:

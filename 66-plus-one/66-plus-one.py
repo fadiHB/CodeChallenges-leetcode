@@ -6,10 +6,8 @@ class Solution:
             
         large = int(str_num) + 1
         
-        res = []
-        for i in str(large):
-            res.append(int(i))
-        
+        res = [int(i) for i in str(large)]
+
         return res
         
         
